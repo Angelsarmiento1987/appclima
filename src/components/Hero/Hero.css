@@ -1,0 +1,54 @@
+
+
+.contGeneralInfo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 85vh;
+    
+}
+
+.contInfoA{
+color: black;
+background-color: #D4F2F4;
+width: 100vw;
+height: auto;
+border: 0px solid;
+border-radius: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+box-shadow: 1px 1px cadetblue;
+padding: 0.5rem;
+}
+
+.ciudad{
+    color: #103194;
+}
+span{
+    color: #103194;
+}
+.cielo{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0.2rem;
+    height: 5%;
+    justify-content: center;
+    border-radius: 20px;
+    background-color:  #45C5D0;
+
+}
+.contDato{
+    background-color:  #45C5D0;
+    width: 80%;
+    margin: 0.2rem;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    
+    
+}
