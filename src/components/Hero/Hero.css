@@ -39,9 +39,14 @@ span{
     justify-content: center;
     border-radius: 20px;
     background-color:  #45C5D0;
+    text-align: center;
 
 }
 .contDato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     background-color:  #45C5D0;
     width: 80%;
     margin: 0.2rem;
