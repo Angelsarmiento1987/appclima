@@ -40,6 +40,7 @@ width: 90%;
     width: 18%;
    display: flex;
    justify-content: space-evenly;
+   gap: 0.5rem;
 
 }
 
@@ -47,11 +48,19 @@ input{
     border: 1px solid black;
     border-radius: 10px;
     padding: 0.4rem;
+  
    
 }
 
 .btn{
+    border: 0px solid;
     border-radius: 10px;
+    background-color: orange;
+    color: #103194;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: orangered;
 }
 
 @media (max-width: 930px){

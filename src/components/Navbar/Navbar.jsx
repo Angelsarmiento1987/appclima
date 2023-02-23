@@ -80,7 +80,7 @@ const Navbar = () => {
                
 
                 <div className='contInput'>
-                    <input type="text" onChange={e=>setValor(e.target.value)} />
+                    <input type="text" onChange={e=>setValor(e.target.value)} placeholder="Ingresa Ciudad o Pais"/>
                     <button className='btn'onClick={()=>climaSearch()}>Search</button> 
                 </div>
             
